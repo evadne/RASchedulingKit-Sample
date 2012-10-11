@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF6F1F0316277602002151DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6F1F0216277602002151DA /* UIKit.framework */; };
+		FF6F1F0516277602002151DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6F1F0416277602002151DA /* Foundation.framework */; };
+		FF6F1F0716277602002151DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6F1F0616277602002151DA /* CoreGraphics.framework */; };
+		FF6F1F0D16277602002151DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF6F1F0B16277602002151DA /* InfoPlist.strings */; };
+		FF6F1F0F16277602002151DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6F1F0E16277602002151DA /* main.m */; };
+		FF6F1F1316277602002151DA /* RAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6F1F1216277602002151DA /* RAAppDelegate.m */; };
+		FF6F1F1516277602002151DA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FF6F1F1416277602002151DA /* Default.png */; };
+		FF6F1F1716277602002151DA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF6F1F1616277602002151DA /* Default@2x.png */; };
+		FF6F1F1916277603002151DA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FF6F1F1816277603002151DA /* Default-568h@2x.png */; };
+		FF6F1F321627765B002151DA /* libRASchedulingKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6F1F2C1627764C002151DA /* libRASchedulingKit.a */; };
+		FF6F1F38162776BB002151DA /* RAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6F1F36162776BB002151DA /* RAViewController.m */; };
+		FF6F1F39162776BB002151DA /* RAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF6F1F37162776BB002151DA /* RAViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF6F1F2B1627764C002151DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF6F1F231627764C002151DA /* RASchedulingKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FFF652C816265F64003191EC;
+			remoteInfo = RASchedulingKit;
+		};
+		FF6F1F2D1627764C002151DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF6F1F231627764C002151DA /* RASchedulingKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FF6F1E2216275B2A002151DA;
+			remoteInfo = RASchedulingKitTest;
+		};
+		FF6F1F3016277654002151DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF6F1F231627764C002151DA /* RASchedulingKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = FFF652C716265F64003191EC;
+			remoteInfo = RASchedulingKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF6F1EFE16277602002151DA /* RASchedulingKit-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RASchedulingKit-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF6F1F0216277602002151DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF6F1F0416277602002151DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF6F1F0616277602002151DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FF6F1F0A16277602002151DA /* RASchedulingKit-Sample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RASchedulingKit-Sample-Info.plist"; sourceTree = "<group>"; };
+		FF6F1F0C16277602002151DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF6F1F0E16277602002151DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF6F1F1016277602002151DA /* RASchedulingKit-Sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RASchedulingKit-Sample-Prefix.pch"; sourceTree = "<group>"; };
+		FF6F1F1116277602002151DA /* RAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RAAppDelegate.h; path = "RASchedulingKit-Sample/RAAppDelegate.h"; sourceTree = "<group>"; };
+		FF6F1F1216277602002151DA /* RAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RAAppDelegate.m; path = "RASchedulingKit-Sample/RAAppDelegate.m"; sourceTree = "<group>"; };
+		FF6F1F1416277602002151DA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FF6F1F1616277602002151DA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FF6F1F1816277603002151DA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FF6F1F231627764C002151DA /* RASchedulingKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RASchedulingKit.xcodeproj; path = RASchedulingKit/RASchedulingKit.xcodeproj; sourceTree = "<group>"; };
+		FF6F1F35162776BB002151DA /* RAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RAViewController.h; path = "RASchedulingKit-Sample/RAViewController.h"; sourceTree = "<group>"; };
+		FF6F1F36162776BB002151DA /* RAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RAViewController.m; path = "RASchedulingKit-Sample/RAViewController.m"; sourceTree = "<group>"; };
+		FF6F1F37162776BB002151DA /* RAViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RAViewController.xib; path = "RASchedulingKit-Sample/RAViewController.xib"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF6F1EFB16277602002151DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6F1F321627765B002151DA /* libRASchedulingKit.a in Frameworks */,
+				FF6F1F0316277602002151DA /* UIKit.framework in Frameworks */,
+				FF6F1F0516277602002151DA /* Foundation.framework in Frameworks */,
+				FF6F1F0716277602002151DA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF6F1EF316277602002151DA = {
+			isa = PBXGroup;
+			children = (
+				FF6F1F1116277602002151DA /* RAAppDelegate.h */,
+				FF6F1F1216277602002151DA /* RAAppDelegate.m */,
+				FF6F1F35162776BB002151DA /* RAViewController.h */,
+				FF6F1F36162776BB002151DA /* RAViewController.m */,
+				FF6F1F37162776BB002151DA /* RAViewController.xib */,
+				FF6F1F0916277602002151DA /* Supporting Files */,
+				FF6F1F0116277602002151DA /* Frameworks */,
+				FF6F1EFF16277602002151DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF6F1EFF16277602002151DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF6F1EFE16277602002151DA /* RASchedulingKit-Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF6F1F0116277602002151DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF6F1F231627764C002151DA /* RASchedulingKit.xcodeproj */,
+				FF6F1F0216277602002151DA /* UIKit.framework */,
+				FF6F1F0416277602002151DA /* Foundation.framework */,
+				FF6F1F0616277602002151DA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF6F1F0916277602002151DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF6F1F0A16277602002151DA /* RASchedulingKit-Sample-Info.plist */,
+				FF6F1F0B16277602002151DA /* InfoPlist.strings */,
+				FF6F1F0E16277602002151DA /* main.m */,
+				FF6F1F1016277602002151DA /* RASchedulingKit-Sample-Prefix.pch */,
+				FF6F1F1416277602002151DA /* Default.png */,
+				FF6F1F1616277602002151DA /* Default@2x.png */,
+				FF6F1F1816277603002151DA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			path = "RASchedulingKit-Sample";
+			sourceTree = "<group>";
+		};
+		FF6F1F241627764C002151DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF6F1F2C1627764C002151DA /* libRASchedulingKit.a */,
+				FF6F1F2E1627764C002151DA /* RASchedulingKitTest.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF6F1EFD16277602002151DA /* RASchedulingKit-Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF6F1F1C16277603002151DA /* Build configuration list for PBXNativeTarget "RASchedulingKit-Sample" */;
+			buildPhases = (
+				FF6F1EFA16277602002151DA /* Sources */,
+				FF6F1EFB16277602002151DA /* Frameworks */,
+				FF6F1EFC16277602002151DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF6F1F3116277654002151DA /* PBXTargetDependency */,
+			);
+			name = "RASchedulingKit-Sample";
+			productName = "RASchedulingKit-Sample";
+			productReference = FF6F1EFE16277602002151DA /* RASchedulingKit-Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF6F1EF516277602002151DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RA;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Radius;
+			};
+			buildConfigurationList = FF6F1EF816277602002151DA /* Build configuration list for PBXProject "RASchedulingKit-Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF6F1EF316277602002151DA;
+			productRefGroup = FF6F1EFF16277602002151DA /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FF6F1F241627764C002151DA /* Products */;
+					ProjectRef = FF6F1F231627764C002151DA /* RASchedulingKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				FF6F1EFD16277602002151DA /* RASchedulingKit-Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FF6F1F2C1627764C002151DA /* libRASchedulingKit.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRASchedulingKit.a;
+			remoteRef = FF6F1F2B1627764C002151DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FF6F1F2E1627764C002151DA /* RASchedulingKitTest.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = RASchedulingKitTest.octest;
+			remoteRef = FF6F1F2D1627764C002151DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF6F1EFC16277602002151DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6F1F0D16277602002151DA /* InfoPlist.strings in Resources */,
+				FF6F1F1516277602002151DA /* Default.png in Resources */,
+				FF6F1F1716277602002151DA /* Default@2x.png in Resources */,
+				FF6F1F1916277603002151DA /* Default-568h@2x.png in Resources */,
+				FF6F1F39162776BB002151DA /* RAViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF6F1EFA16277602002151DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6F1F0F16277602002151DA /* main.m in Sources */,
+				FF6F1F1316277602002151DA /* RAAppDelegate.m in Sources */,
+				FF6F1F38162776BB002151DA /* RAViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF6F1F3116277654002151DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RASchedulingKit;
+			targetProxy = FF6F1F3016277654002151DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF6F1F0B16277602002151DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF6F1F0C16277602002151DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF6F1F1A16277603002151DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/RASchedulingKit/RASchedulingKit";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF6F1F1B16277603002151DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/RASchedulingKit/RASchedulingKit";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF6F1F1D16277603002151DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RASchedulingKit-Sample/RASchedulingKit-Sample-Prefix.pch";
+				INFOPLIST_FILE = "RASchedulingKit-Sample/RASchedulingKit-Sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FF6F1F1E16277603002151DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RASchedulingKit-Sample/RASchedulingKit-Sample-Prefix.pch";
+				INFOPLIST_FILE = "RASchedulingKit-Sample/RASchedulingKit-Sample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF6F1EF816277602002151DA /* Build configuration list for PBXProject "RASchedulingKit-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF6F1F1A16277603002151DA /* Debug */,
+				FF6F1F1B16277603002151DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF6F1F1C16277603002151DA /* Build configuration list for PBXNativeTarget "RASchedulingKit-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF6F1F1D16277603002151DA /* Debug */,
+				FF6F1F1E16277603002151DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF6F1EF516277602002151DA /* Project object */;
+}

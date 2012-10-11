@@ -1,0 +1,3 @@
+[submodule "RASchedulingKit"]
+	path = RASchedulingKit
+	url = git://github.com/evadne/RASchedulingKit.git
